@@ -1,0 +1,7 @@
+{
+    "require": {
+        "zendframework/zend-expressive": "^0.3.0",
+        "aura/router": "^2.3",
+        "zendframework/zend-servicemanager": "^2.6"
+    }
+}

@@ -1,0 +1,13 @@
+<?php
+
+require 'vendor/autoload.php';
+// In index.php
+use Zend\Expressive\AppFactory;
+
+
+$app = AppFactory::create();
+$app->route('/', function ($request, $response, $next) {
+    $response->getBody()->write('Hello, world!');
+    return $response;
+});
+$app->run();
